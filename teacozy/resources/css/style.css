@@ -56,6 +56,11 @@ body {margin: 0;
    .item {
     padding: 5px;
 }
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
 #locations {
    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
    height: 500px;
