@@ -84,7 +84,7 @@ flex-container .items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- }
+   }
  .item img {
     height: 200px;
     margin: 10px;
@@ -113,19 +113,10 @@ flex-container .items {
               padding: 10px;
         margin: 5px 20px;
     }
-  #contact {
-        height: 200px;
-    }
-    h2{
-    display: block;
-    font-size: 1.5em;
-  font-weight: bold
-}
+  .flex-container .contact {
+        height: 200px;    }
 
-  h5 {
-      display: block;
-     font-size: 0.83em;  }
-  .footer {
-       text-align: left;
-         padding-left: 20px;
-       }
+   .contact h2{ color: white;
+     margin: 0px;
+     padding: 10px; }
+     footer{ text-align: left;} 
