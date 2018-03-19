@@ -1,0 +1,175 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+body {
+    line-height: 1.4rem;
+    display: block;
+    margin: 0;
+}
+
+header {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    height: 30rem;
+  }
+  @media only screen and (max-width: 1024px)
+header {
+    padding-top: 0;
+    height: 22rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+nav img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+img {
+    border-style: none;
+}
+nav {
+    padding: 1rem 0;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+ul {
+    margin-right: 1rem;
+}
+@media only screen and (max-width: 700px)
+.menu ul {
+    display: none;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+ul li {
+    display: inline;
+    padding: 0 1rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+div {
+    display: block;
+}
+header .flex {
+    justify-content: flex-end;
+}
+.flex {
+    display: flex;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+.main-banner {
+    background-color: white;
+    padding: 0.75rem 5rem;
+    display: inline-block;
+    margin-top: 10rem;
+    margin-right: -2rem;
+    line-height: 2.4rem;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .67em 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.supporting {
+    display: flex;
+    justify-content: center;
+}
+article, aside, footer, header, nav, section{
+    display: block;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+.service img.paper-icon {
+    width: 3.5rem;
+}
+.service img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+img {
+    border-style: none;
+}
+.info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+.title {
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.info p {
+    padding: 1rem 0;
+}
+footer {
+    background-color: azure;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+}
+footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
